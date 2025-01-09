@@ -22,7 +22,7 @@ To run this project, you need the following:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/gaze-detection.git
-   cd gaze-detection
+   cd gaze-tracking
    ```
 
 2. Install the required dependencies:
@@ -34,7 +34,7 @@ To run this project, you need the following:
 
 1. Run the Python script:
    ```bash
-   python detect_gaze_visual_feedback.py
+   python gazeupdate.py
    ```
 
 2. Allow access to your webcam.
@@ -48,7 +48,7 @@ To run this project, you need the following:
 
 ## Code Overview
 
-The main script (`detect_gaze_visual_feedback.py`) includes the following components:
+The main script (`gazeupdate.py`) includes the following components:
 
 - **Initialization**: Setting up Mediapipe Face Mesh and OpenCV.
 - **Eye and Iris Landmark Detection**: Extracting facial landmarks corresponding to the eyes and irises.
