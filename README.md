@@ -21,7 +21,7 @@ To run this project, you need the following:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/gaze-detection.git
+   git clone https://github.com/Real-J/gaze-detection.git
    cd gaze-tracking
    ```
 
